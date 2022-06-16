@@ -1,0 +1,225 @@
+python3 EfficientNet02classifier.py 
+Loading DataSet
+2021-10-13 18:40:18.868453: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:40:18.875072: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:40:18.875557: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:40:18.876224: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-10-13 18:40:18.876770: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:40:18.877368: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:40:18.877814: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:40:19.285290: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:40:19.285772: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:40:19.286188: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:40:19.286614: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 4626 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1060 6GB, pci bus id: 0000:09:00.0, compute capability: 6.1
+ 
+ Loading EfficientNet-Lite4 
+
+2021-10-13 18:40:21.279184: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+hub_keras_layer_v1v2 (HubKer (None, 1000)              13118936  
+_________________________________________________________________
+dropout (Dropout)            (None, 1000)              0         
+_________________________________________________________________
+dense (Dense)                (None, 5)                 5005      
+=================================================================
+Total params: 13,123,941
+Trainable params: 5,005
+Non-trainable params: 13,118,936
+_________________________________________________________________
+None
+/home/nikhil/anaconda3/envs/tf-gpu/lib/python3.9/site-packages/keras/optimizer_v2/optimizer_v2.py:355: UserWarning: The `lr` argument is deprecated, use `learning_rate` instead.
+  warnings.warn(
+Epoch 1/50
+2021-10-13 18:40:27.561311: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8204
+2021-10-13 18:40:27.909434: I tensorflow/core/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+91/91 [==============================] - 19s 163ms/step - loss: 1.4894 - accuracy: 0.7315 - val_loss: 1.1682 - val_accuracy: 0.8352
+Epoch 2/50
+91/91 [==============================] - 14s 154ms/step - loss: 1.1305 - accuracy: 0.8022 - val_loss: 1.0370 - val_accuracy: 0.8466
+Epoch 3/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.9972 - accuracy: 0.8204 - val_loss: 1.0700 - val_accuracy: 0.8182
+Epoch 4/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.9881 - accuracy: 0.8273 - val_loss: 1.0095 - val_accuracy: 0.8239
+Epoch 5/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.9032 - accuracy: 0.8438 - val_loss: 0.9900 - val_accuracy: 0.8153
+Epoch 6/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.9399 - accuracy: 0.8396 - val_loss: 1.1188 - val_accuracy: 0.8295
+Epoch 7/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.9583 - accuracy: 0.8314 - val_loss: 1.0459 - val_accuracy: 0.8381
+Epoch 8/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.9103 - accuracy: 0.8520 - val_loss: 0.9885 - val_accuracy: 0.8239
+Epoch 9/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.8692 - accuracy: 0.8527 - val_loss: 0.9489 - val_accuracy: 0.8438
+Epoch 10/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.9013 - accuracy: 0.8506 - val_loss: 1.0617 - val_accuracy: 0.8267
+Epoch 11/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.8849 - accuracy: 0.8565 - val_loss: 0.9569 - val_accuracy: 0.8438
+Epoch 12/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.8524 - accuracy: 0.8592 - val_loss: 0.9923 - val_accuracy: 0.8295
+Epoch 13/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.8633 - accuracy: 0.8595 - val_loss: 1.0469 - val_accuracy: 0.7926
+Epoch 14/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.8840 - accuracy: 0.8479 - val_loss: 1.0763 - val_accuracy: 0.7727
+Epoch 15/50
+91/91 [==============================] - 14s 154ms/step - loss: 0.8773 - accuracy: 0.8510 - val_loss: 1.0310 - val_accuracy: 0.8097
+Epoch 16/50
+91/91 [==============================] - 14s 154ms/step - loss: 0.8917 - accuracy: 0.8575 - val_loss: 0.9490 - val_accuracy: 0.8438
+Epoch 17/50
+91/91 [==============================] - 14s 154ms/step - loss: 0.8952 - accuracy: 0.8434 - val_loss: 0.9902 - val_accuracy: 0.8182
+Epoch 18/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.8956 - accuracy: 0.8527 - val_loss: 1.0428 - val_accuracy: 0.7898
+Epoch 19/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.8807 - accuracy: 0.8503 - val_loss: 1.1869 - val_accuracy: 0.7699
+Epoch 20/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.9183 - accuracy: 0.8479 - val_loss: 0.9483 - val_accuracy: 0.8324
+Epoch 21/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.8795 - accuracy: 0.8472 - val_loss: 0.9833 - val_accuracy: 0.8239
+Epoch 22/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.9118 - accuracy: 0.8479 - val_loss: 1.0014 - val_accuracy: 0.8267
+Epoch 23/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.8835 - accuracy: 0.8499 - val_loss: 0.8839 - val_accuracy: 0.8551
+Epoch 24/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.8741 - accuracy: 0.8582 - val_loss: 0.9190 - val_accuracy: 0.8494
+Epoch 25/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.8742 - accuracy: 0.8551 - val_loss: 0.9426 - val_accuracy: 0.8324
+Epoch 26/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.9142 - accuracy: 0.8438 - val_loss: 0.9494 - val_accuracy: 0.8097
+Epoch 27/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.9099 - accuracy: 0.8396 - val_loss: 0.8470 - val_accuracy: 0.8722
+Epoch 28/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.8831 - accuracy: 0.8486 - val_loss: 0.9303 - val_accuracy: 0.8523
+Epoch 29/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.8647 - accuracy: 0.8547 - val_loss: 0.9447 - val_accuracy: 0.8381
+Epoch 30/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.9121 - accuracy: 0.8403 - val_loss: 1.0475 - val_accuracy: 0.8239
+Epoch 31/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.8830 - accuracy: 0.8520 - val_loss: 0.8815 - val_accuracy: 0.8580
+Epoch 32/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.9338 - accuracy: 0.8396 - val_loss: 0.9243 - val_accuracy: 0.8608
+Epoch 33/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.9234 - accuracy: 0.8492 - val_loss: 0.9236 - val_accuracy: 0.8750
+Epoch 34/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.9891 - accuracy: 0.8341 - val_loss: 0.9058 - val_accuracy: 0.8608
+Epoch 35/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.9081 - accuracy: 0.8499 - val_loss: 0.9165 - val_accuracy: 0.8494
+Epoch 36/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.8779 - accuracy: 0.8592 - val_loss: 0.9359 - val_accuracy: 0.8551
+Epoch 37/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.8524 - accuracy: 0.8585 - val_loss: 1.0161 - val_accuracy: 0.8097
+Epoch 38/50
+91/91 [==============================] - 14s 154ms/step - loss: 0.9146 - accuracy: 0.8420 - val_loss: 0.9848 - val_accuracy: 0.8182
+Epoch 39/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.8878 - accuracy: 0.8492 - val_loss: 0.9071 - val_accuracy: 0.8636
+Epoch 40/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.8860 - accuracy: 0.8613 - val_loss: 0.9399 - val_accuracy: 0.8295
+Epoch 41/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.8467 - accuracy: 0.8602 - val_loss: 0.9799 - val_accuracy: 0.8324
+Epoch 42/50
+91/91 [==============================] - 15s 166ms/step - loss: 0.9171 - accuracy: 0.8499 - val_loss: 0.9795 - val_accuracy: 0.8381
+Epoch 43/50
+91/91 [==============================] - 14s 157ms/step - loss: 0.8813 - accuracy: 0.8578 - val_loss: 1.2534 - val_accuracy: 0.7557
+Epoch 44/50
+91/91 [==============================] - 14s 156ms/step - loss: 0.8871 - accuracy: 0.8486 - val_loss: 0.9856 - val_accuracy: 0.8295
+Epoch 45/50
+91/91 [==============================] - 14s 157ms/step - loss: 0.8942 - accuracy: 0.8499 - val_loss: 0.9462 - val_accuracy: 0.8295
+Epoch 46/50
+91/91 [==============================] - 14s 155ms/step - loss: 0.9171 - accuracy: 0.8516 - val_loss: 0.9348 - val_accuracy: 0.8722
+Epoch 47/50
+91/91 [==============================] - 14s 157ms/step - loss: 0.8528 - accuracy: 0.8623 - val_loss: 0.9885 - val_accuracy: 0.8324
+Epoch 48/50
+91/91 [==============================] - 14s 157ms/step - loss: 0.8847 - accuracy: 0.8530 - val_loss: 0.9748 - val_accuracy: 0.8210
+Epoch 49/50
+91/91 [==============================] - 14s 157ms/step - loss: 0.8750 - accuracy: 0.8489 - val_loss: 1.0003 - val_accuracy: 0.7955
+Epoch 50/50
+91/91 [==============================] - 14s 158ms/step - loss: 0.8862 - accuracy: 0.8513 - val_loss: 1.0138 - val_accuracy: 0.8125
+ 
+ 
+ SUMMARY:  
+ 
+
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+hub_keras_layer_v1v2 (HubKer (None, 1000)              13118936  
+_________________________________________________________________
+dropout (Dropout)            (None, 1000)              0         
+_________________________________________________________________
+dense (Dense)                (None, 5)                 5005      
+=================================================================
+Total params: 13,123,941
+Trainable params: 5,005
+Non-trainable params: 13,118,936
+_________________________________________________________________
+ 
+ 
+ Results:  
+ 
+
+12/12 [==============================] - 2s 151ms/step - loss: 0.9699 - accuracy: 0.8283
+  Loss: 
+ 
+0.9698837995529175
+ 
+  accuracy: 
+ 
+0.8283378481864929
+2021-10-13 18:52:21.935395: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+2021-10-13 18:52:27.024863: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:52:27.025096: I tensorflow/core/grappler/devices.cc:66] Number of eligible GPUs (core count >= 8, compute capability >= 0.0): 1
+2021-10-13 18:52:27.025183: I tensorflow/core/grappler/clusters/single_machine.cc:357] Starting new session
+2021-10-13 18:52:27.025589: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:52:27.025977: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:52:27.026222: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:52:27.026659: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:52:27.026922: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:52:27.027128: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 4626 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1060 6GB, pci bus id: 0000:09:00.0, compute capability: 6.1
+2021-10-13 18:52:27.093367: I tensorflow/core/grappler/optimizers/meta_optimizer.cc:1137] Optimization results for grappler item: graph_to_optimize
+  function_optimizer: Graph size after: 1693 nodes (1224), 1717 edges (1246), time = 38.947ms.
+  function_optimizer: function_optimizer did nothing. time = 0.955ms.
+
+2021-10-13 18:52:28.889807: W tensorflow/compiler/mlir/lite/python/tf_tfl_flatbuffer_helpers.cc:351] Ignored output_format.
+2021-10-13 18:52:28.889851: W tensorflow/compiler/mlir/lite/python/tf_tfl_flatbuffer_helpers.cc:354] Ignored drop_control_dependency.
+2021-10-13 18:52:28.991678: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:210] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+fully_quantize: 0, inference_type: 6, input_inference_type: 3, output_inference_type: 3
+WARNING:absl:For model inputs containing unsupported operations which cannot be quantized, the `inference_input_type` attribute will default to the original type.
+2021-10-13 18:54:34.106281: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:54:34.106535: I tensorflow/core/grappler/devices.cc:66] Number of eligible GPUs (core count >= 8, compute capability >= 0.0): 1
+2021-10-13 18:54:34.106643: I tensorflow/core/grappler/clusters/single_machine.cc:357] Starting new session
+2021-10-13 18:54:34.106915: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:54:34.107183: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:54:34.107431: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:54:34.107730: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:54:34.107985: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:937] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-10-13 18:54:34.108174: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 4626 MB memory:  -> device: 0, name: NVIDIA GeForce GTX 1060 6GB, pci bus id: 0000:09:00.0, compute capability: 6.1
+2021-10-13 18:54:34.170961: I tensorflow/core/grappler/optimizers/meta_optimizer.cc:1137] Optimization results for grappler item: graph_to_optimize
+  function_optimizer: Graph size after: 1693 nodes (1224), 1717 edges (1246), time = 36.99ms.
+  function_optimizer: function_optimizer did nothing. time = 0.612ms.
+
+2021-10-13 18:54:36.150025: W tensorflow/compiler/mlir/lite/python/tf_tfl_flatbuffer_helpers.cc:351] Ignored output_format.
+2021-10-13 18:54:36.150069: W tensorflow/compiler/mlir/lite/python/tf_tfl_flatbuffer_helpers.cc:354] Ignored drop_control_dependency.
+2021-10-13 18:54:36.598423: I tensorflow/lite/tools/optimize/quantize_weights.cc:225] Skipping quantization of tensor efficientnet-lite4/model/stem/Relu6;sequential/hub_keras_layer_v1v2/StatefulPartitionedCall/efficientnet-lite4/model/stem/Relu6;efficientnet-lite4/model/stem/tpu_batch_normalization/FusedBatchNormV3;sequential/hub_keras_layer_v1v2/StatefulPartitionedCall/efficientnet-lite4/model/stem/tpu_batch_normalization/FusedBatchNormV3;efficientnet-lite4/model/blocks_4/conv2d_1/Conv2D;sequential/hub_keras_layer_v1v2/StatefulPartitionedCall/efficientnet-lite4/model/blocks_4/conv2d_1/Conv2D;efficientnet-lite4/model/stem/conv2d/Conv2D;sequential/hub_keras_layer_v1v2/StatefulPartitionedCall/efficientnet-lite4/model/stem/conv2d/Conv2D because it has fewer than 1024 elements (864).
+2021-10-13 18:54:36.598479: I tensorflow/lite/tools/optimize/quantize_weights.cc:225] Skipping quantization of tensor efficientnet-lite4/model/blocks_0/tpu_batch_normalization/FusedBatchNormV3;sequential/hub_keras_layer_v1v2/StatefulPartitionedCall/efficientnet-lite4/model/blocks_0/tpu_batch_normalization/FusedBatchNormV3;efficientnet-lite4/model/blocks_0/depthwise_conv2d/depthwise;sequential/hub_keras_layer_v1v2/StatefulPartitionedCall/efficientnet-lite4/model/blocks_0/depthwise_conv2d/depthwise;efficientnet-lite4/model/blocks_4/conv2d_1/Conv2D;sequential/hub_keras_layer_v1v2/StatefulPartitionedCall/efficientnet-lite4/model/blocks_4/conv2d_1/Conv2D because it has fewer than 1024 elements (288).
+2021-10-13 18:54:36.598488: I tensorflow/lite/tools/optimize/quantize_weights.cc:225] Skipping quantization of tensor efficientnet-lite4/model/blocks_0/conv2d/Conv2D;sequential/hub_keras_layer_v1v2/StatefulPartitionedCall/efficientnet-lite4/model/blocks_0/conv2d/Conv2D because it has fewer than 1024 elements (768).
+ 
+ 
+ TF-LITE Conversion accuracy:  
+ 
+
+ 
+  accuracy: 
+ 
+{'accuracy': 0.8256130790190735}
+ 
+ 
+ TF-LITE quantization accuracy:  
+ 
+
+ 
+  accuracy: 
+ 
+{'accuracy': 0.8228882833787466}
+
