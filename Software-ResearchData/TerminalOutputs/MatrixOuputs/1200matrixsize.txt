@@ -1,0 +1,11 @@
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(1200,4800) = a(1200,2400) * b(2400,4800)
+parallel Time: 
+
+ parallel Matrix took: 2865 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 56727 milliseconds to run.
+

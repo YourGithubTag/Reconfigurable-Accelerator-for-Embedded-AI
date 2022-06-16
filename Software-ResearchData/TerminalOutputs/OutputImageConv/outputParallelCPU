@@ -1,0 +1,514 @@
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/fat.bmp
+offset = 1162
+width = 255
+height = 255
+widthCheck = 255
+heightCheck = 255
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=255, imageCols=255
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 103 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/fat.bmp
+offset = 1162
+width = 255
+height = 255
+widthCheck = 255
+heightCheck = 255
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=255, imageCols=255
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 102 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/fat.bmp
+offset = 1162
+width = 255
+height = 255
+widthCheck = 255
+heightCheck = 255
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=255, imageCols=255
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 103 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/fat.bmp
+offset = 1162
+width = 255
+height = 255
+widthCheck = 255
+heightCheck = 255
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=255, imageCols=255
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 108 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/fat.bmp
+offset = 1162
+width = 255
+height = 255
+widthCheck = 255
+heightCheck = 255
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=255, imageCols=255
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 102 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+
+
+MEDIUM
+
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/cat.bmp
+offset = 1078
+width = 1080
+height = 720
+widthCheck = 1080
+heightCheck = 720
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=720, imageCols=1080
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 108 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/cat.bmp
+offset = 1078
+width = 1080
+height = 720
+widthCheck = 1080
+heightCheck = 720
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=720, imageCols=1080
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 109 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/cat.bmp
+offset = 1078
+width = 1080
+height = 720
+widthCheck = 1080
+heightCheck = 720
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=720, imageCols=1080
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 108 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/cat.bmp
+offset = 1078
+width = 1080
+height = 720
+widthCheck = 1080
+heightCheck = 720
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=720, imageCols=1080
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 107 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/cat.bmp
+offset = 1078
+width = 1080
+height = 720
+widthCheck = 1080
+heightCheck = 720
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=720, imageCols=1080
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 114 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ 
+
+
+Large
+
+
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/catBIG.bmp
+offset = 1162
+width = 2298
+height = 1602
+widthCheck = 2298
+heightCheck = 1602
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=1602, imageCols=2298
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 127 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/catBIG.bmp
+offset = 1162
+width = 2298
+height = 1602
+widthCheck = 2298
+heightCheck = 1602
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=1602, imageCols=2298
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 129 milliseconds to run.
+finished
+^[[APassed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/catBIG.bmp
+offset = 1162
+width = 2298
+height = 1602
+widthCheck = 2298
+heightCheck = 1602
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=1602, imageCols=2298
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 133 milliseconds to run.
+finished
+^[[APassed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/catBIG.bmp
+offset = 1162
+width = 2298
+height = 1602
+widthCheck = 2298
+heightCheck = 1602
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=1602, imageCols=2298
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 128 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ ./image-conv
+1 found ..
+Platform: Intel(R) FPGA Emulation Platform for OpenCL(TM)
+Device: Intel(R) FPGA Emulation Device
+2 found ..
+Platform: Intel(R) OpenCL
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+3 found ..
+Platform: SYCL host platform
+Device: SYCL host device
+
+Reading input image from ./Images/catBIG.bmp
+offset = 1162
+width = 2298
+height = 1602
+widthCheck = 2298
+heightCheck = 1602
+bits per pixel = 8
+BREAKPOINT 1  
+ BREAKPOINT 1.5  
+ BREAKPOINT 3  
+ BREAKPOINT 4  
+ BREAKPOINT 6  
+ FINISHED READ 
+ imageRows=1602, imageCols=2298
+filterWidth=5, 
+Running on device: AMD Ryzen 5 1600 Six-Core Processor            
+TIME 
+
+ Convolution took: 130 milliseconds to run.
+finished
+Passed!
+Image Convolution successfully completed on device.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/image-conv/build$ 
+
+
+
+
+
+
+
+

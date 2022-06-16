@@ -1,0 +1,52 @@
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(600,2400) = a(600,1200) * b(1200,2400)
+parallel Time: 
+
+ parallel Matrix took: 164 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 7088 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(600,2400) = a(600,1200) * b(1200,2400)
+parallel Time: 
+
+ parallel Matrix took: 173 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 7082 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(600,2400) = a(600,1200) * b(1200,2400)
+parallel Time: 
+
+ parallel Matrix took: 176 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 8924 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(600,2400) = a(600,1200) * b(1200,2400)
+parallel Time: 
+
+ parallel Matrix took: 166 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 8037 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(600,2400) = a(600,1200) * b(1200,2400)
+parallel Time: 
+
+ parallel Matrix took: 168 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 7563 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ 
+

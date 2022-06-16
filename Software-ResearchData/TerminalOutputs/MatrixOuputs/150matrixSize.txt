@@ -1,0 +1,62 @@
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(150,600) = a(150,300) * b(300,600)
+parallel Time: 
+
+ parallel Matrix took: 8 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 117 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(150,600) = a(150,300) * b(300,600)
+parallel Time: 
+
+ parallel Matrix took: 8 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 112 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(150,600) = a(150,300) * b(300,600)
+parallel Time: 
+
+ parallel Matrix took: 7 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 111 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(150,600) = a(150,300) * b(300,600)
+parallel Time: 
+
+ parallel Matrix took: 8 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 113 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(150,600) = a(150,300) * b(300,600)
+parallel Time: 
+
+ parallel Matrix took: 8 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 110 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(150,600) = a(150,300) * b(300,600)
+parallel Time: 
+
+ parallel Matrix took: 8 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 117 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ 
+

@@ -1,0 +1,23 @@
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(1200,4800) = a(1200,2400) * b(2400,4800)
+parallel Time: 
+
+ parallel Matrix took: 2865 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 56727 milliseconds to run.
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ make
+dpcpp -std=c++17 -g -o matrix_mul_dpc src/matrix_mul_dpcpp.cpp 
+nikhil@pop-os:~/Documents/Part4Project/DPC++CONV/matrix_mul$ ./matrix_mul_dpc 
+Device: AMD Ryzen 5 1600 Six-Core Processor            
+Problem size: c(2400,9600) = a(2400,4800) * b(4800,9600)
+parallel Time: 
+
+ parallel Matrix took: 22017 milliseconds to run.
+Result of matrix multiplication using DPC++: Success - The results are correct!
+Sequential Time: 
+
+ Sequential Matrix took: 453151 milliseconds to run.
+
