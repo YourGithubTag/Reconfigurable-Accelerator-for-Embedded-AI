@@ -1,0 +1,170 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/symes/University/Part4Project/Modelsim_Proj
+Esimple_inc
+Z0 w1631160016
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/symes/University/Part4Project/Actual_Project/rtl
+Z5 8C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_inc.vhd
+Z6 FC:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_inc.vhd
+l0
+L5
+VJ>ODgLN6aHnmPb=H>0f1:3
+!s100 hEBK7MoGOzJ;VbCbNaJJl2
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1631169168
+!i10b 1
+Z9 !s108 1631169168.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_inc.vhd|
+Z11 !s107 C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_inc.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehaviour
+R1
+R2
+R3
+DEx4 work 10 simple_inc 0 22 J>ODgLN6aHnmPb=H>0f1:3
+l17
+L15
+V@Xa6F];HelmeCE^ZfeJKW3
+!s100 3oc7BGagKfSnmzdIN01eW1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Esimple_inc_testbench
+Z14 w1631159965
+R1
+R2
+R3
+R4
+Z15 8C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_inc_testbench.vhd
+Z16 FC:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_inc_testbench.vhd
+l0
+L5
+Vzh_6nikZ4ob=NcS^mHh]X1
+!s100 SLRSCk0VZV09F28mB@28i2
+R7
+32
+Z17 !s110 1631169169
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_inc_testbench.vhd|
+Z19 !s107 C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_inc_testbench.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R1
+R2
+R3
+Z20 DEx4 work 20 simple_inc_testbench 0 22 zh_6nikZ4ob=NcS^mHh]X1
+l26
+L8
+Z21 VJ>n>O>PNeUNb38@9F44J>1
+Z22 !s100 Je9nKL<@WiGAa]G__NgN73
+R7
+32
+R17
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Esimple_not
+Z23 w1631168742
+R2
+R3
+R4
+Z24 8C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_not.vhd
+Z25 FC:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_not.vhd
+l0
+L4
+VhB;3W_SIkR_XA0jWkg^lj2
+!s100 0j3jCNU]]Q6UbmACfizO81
+R7
+32
+R8
+!i10b 1
+R9
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_not.vhd|
+Z27 !s107 C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_not.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R2
+R3
+DEx4 work 10 simple_not 0 22 hB;3W_SIkR_XA0jWkg^lj2
+l20
+L18
+V:CbAkMm:6Xa]991J>0OMf1
+!s100 6j[?FM=FGHKkR8bR3>m8j3
+R7
+32
+R8
+!i10b 1
+R9
+R26
+R27
+!i113 1
+R12
+R13
+Esimple_not_testbench
+Z28 w1631169164
+R2
+R3
+R4
+Z29 8C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_not_testbench.vhd
+Z30 FC:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_not_testbench.vhd
+l0
+L4
+VnVW8ONij@4az;0YM5VSl00
+!s100 zRniJRN:h1]cfSl4afAKM2
+R7
+32
+R8
+!i10b 1
+R9
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_not_testbench.vhd|
+Z32 !s107 C:/Users/symes/University/Part4Project/Actual_Project/rtl/simple_not_testbench.vhd|
+!i113 1
+R12
+R13
+Abehaviour
+R2
+R3
+DEx4 work 20 simple_not_testbench 0 22 nVW8ONij@4az;0YM5VSl00
+l33
+L7
+VTZ^S^@<]6Z9QNXz;oh0Z43
+!s100 AAS5jaWkTHKBzgDlPBe:Q2
+R7
+32
+R8
+!i10b 1
+R9
+R31
+R32
+!i113 1
+R12
+R13
